@@ -1,6 +1,6 @@
 # Dataset introduction
 
-The [WSC dataset](:files_path:/datasets) posted on the NSRR has gone through various post-processing steps in order to prepare the data for more widespread sharing. Changes and updates to the source data and variable definitions have been coordinated in the [numom2b-data-dictionary repository](https://github.com/nsrr/numom2b-data-dictionary).
+The [WSC dataset](:files_path:/datasets) posted on the NSRR has gone through various post-processing steps in order to prepare the data for more widespread sharing. Changes and updates to the source data and variable definitions have been coordinated in the [wsc-data-dictionary repository](https://github.com/nsrr/wsc-data-dictionary).
 
 **Disclaimer:** These data are not perfect. Please [submit issues](https://github.com/nsrr/wsc-data-dictionary/issues) for any new problematic findings.
 

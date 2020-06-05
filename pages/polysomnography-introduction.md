@@ -1,5 +1,9 @@
 # Polysomnography introduction
 
+The Sleep Research Laboratory is part of the Clinical and Translational Research Core of the University of Wisconsin.  The Research Laboratory is in a dedicated wing of the CTRC unit in University of Wisconsin Hospital and Clinics. The Sleep Research Lab consists of two sleep rooms and a control room. The sleep rooms are used almost exclusively by the Wisconsin Sleep Cohort Study, but are also available for other researchers.
+
+Notes:
+- [WSCS Manual of Operations](link-to-pdf)
 - [Montage and Sampling Rate Information](:pages_path:/montage-and-sampling-rate-information.md)
 
 ## NSRR signal harmonization
