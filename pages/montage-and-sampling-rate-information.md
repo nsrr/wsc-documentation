@@ -1,4 +1,6 @@
-## The settings below represent the standards set at the beginning of the project. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.
+# Montage and sampling rate information
+
+The settings below represent the standards set at the beginning of the project. There may be a small proportion of studies and signals that do not match these standards exactly. Please review the settings at the individual sleep study level as you proceed with any analyses.
 
 ## Grass Comet Lab Based system (2009-present)
 | Channel                       | EDF Label | Input 1  | Input 2 | Sampling rate (Hz) | Hardware filters (Hz) | Sensor type                                                |

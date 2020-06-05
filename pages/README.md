@@ -18,7 +18,13 @@ Please include the following text in the Acknowledgements:
 
 ## Data overview
 
+**[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core clinic visit and polysomnography results.
+
+**[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md))<br/> Raw physiological data and scoring annotations from polysomnography.
+
 ## Protocols and manuals
+
+- [Manual of Operations](link-to-pdf)
 
 ## Recent Changes
 
