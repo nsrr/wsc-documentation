@@ -22,11 +22,11 @@ Please include the following text in the Acknowledgements:
 
 **[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core clinic visit and polysomnography results.
 
-**[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md))<br/> Raw physiological data and scoring annotations from polysomnography.
+**[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md))<br/> Raw physiological data from overnight polysomnography.
 
 ## Protocols and manuals
 
-- [WSCS Manual of Operations](:files_path:/documentation?f=WSCS_Manual_of_Operations.pdf)
+- [WSCS Manual of Operations (PDF)](:files_path:/documentation?f=WSCS_Manual_of_Operations.pdf)
 
 ## Recent Changes
 

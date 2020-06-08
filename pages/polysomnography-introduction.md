@@ -3,12 +3,29 @@
 The Sleep Research Laboratory is part of the Clinical and Translational Research Core of the University of Wisconsin.  The Research Laboratory is in a dedicated wing of the CTRC unit in University of Wisconsin Hospital and Clinics. The Sleep Research Lab consists of two sleep rooms and a control room. The sleep rooms are used almost exclusively by the Wisconsin Sleep Cohort Study, but are also available for other researchers.
 
 Notes:
-- [WSCS Manual of Operations](link-to-pdf)
+- [WSCS Manual of Operations](:files_path:/documentation/WSCS_Manual_of_Operations.pdf)
 - [Montage and Sampling Rate Information](:pages_path:/montage-and-sampling-rate-information.md)
+
+## Signal and annotation files
+
+The WSC cohort contains [raw polysomnography data](:files_path:/polysomnography) for 2,570 overnight recordings. The study visit breakdown is as follows:
+
+1. Visit 1 - 1,123 recordings
+2. Visit 2 - 758 recordings
+3. Visit 3 - 566 recordings
+4. Visit 4 - 121 recordings
+5. Visit 5 - 2 recordings
+
+Each recording contains an **[EDF](:files_path:/polysomnography/edfs)** signal file in the [European Data Format](http://www.edfplus.info/). These EDFs were exported from the original data collection system and processed in [Luna](http://zzz.bwh.harvard.edu/luna/)
 
 ## NSRR signal harmonization
 
 Using [Luna](http://zzz.bwh.harvard.edu/luna/), a list of all channel names were extracted from the EDFs for the Wisconsin Sleep Cohort. Subsequently, the extracted channel names were assigned to a set of new standardized channel names, outlined on the [montage and sampling rate information page](:pages_path:/montage-and-sampling-rate-information.md). Later, the channel names in EDF files were changed to these standardized channel names for consistency with the montage page. Some recordings made on the Grass Heritage system contained two identically named airflow channels with differing traces. These naming issues were corrected, and the "duplicate" traces are now correctly distinguished as Nasal and Oral Airflow.
+
+## History / changelog
+
+*May 2020*
+- WSC team submits raw EDF data to NSRR
 
 ## Questions?
 
