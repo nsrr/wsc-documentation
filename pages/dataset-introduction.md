@@ -12,7 +12,7 @@ Participants have up to five (5) records in the dataset. Each record corresponds
 
 Click [here to browse the WSC dataset variables](https://sleepdata.org/datasets/wsc/variables).
 
-## History
+## History / changelog
 
 *May 2020*
 - WSC team submits source data to NSRR
