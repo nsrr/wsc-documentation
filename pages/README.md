@@ -26,7 +26,7 @@ Please include the following text in the Acknowledgements:
 
 ## Protocols and manuals
 
-- [WSCS Manual of Operations (PDF)](:files_path:/documentation?f=WSCS_Manual_of_Operations.pdf)
+- [WSCS Manual of Operations (PDF)](:files_path:/documentation/WSCS_Manual_of_Operations.pdf)
 
 ## Recent Changes
 
