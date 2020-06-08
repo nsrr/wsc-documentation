@@ -6,13 +6,11 @@ The [WSC dataset](:files_path:/datasets) posted on the NSRR has gone through var
 
 ## Structure
 
+The [WSC dataset](:files_path:/datasets) contains 2,570 records. The dataset is deidentified. Individual participants are distinguished by the [wsc_id](https://sleepdata.org/datasets/wsc/variables/wsc_id) variable. Only participants who agreed to share their data have been included.
 
+Participants have up to five (5) records in the dataset. Each record corresponds to a different research visit. Records are differentiated by the [wsc_vst](https://sleepdata.org/datasets/wsc/variables/wsc_vst) (study visit number) variable. The [vst_year](https://sleepdata.org/datasets/wsc/variables/vst_year) variable indicates the calendar year of each study visit.
 
-## Contents
-
-The datasets are deidentified. Individual participants are distinguished by the [PublicID](https://sleepdata.org/datasets/numom2b/variables/publicid) variable. Only participants who agreed to share their data have been included.
-
-Click [here to browse the the nuMoM2b dataset variables](https://sleepdata.org/datasets/numom2b/variables).
+Click [here to browse the WSC dataset variables](https://sleepdata.org/datasets/wsc/variables).
 
 ## Questions?
 

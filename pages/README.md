@@ -1,8 +1,10 @@
 # About
 
-The Wisconsin Sleep Cohort (WSC) is an ongoing longitudinal study of the causes, consequences, and natural history of sleep disorders, particularly sleep apnea. The WSC uses overnight in-laboratory sleep studies (in-patient studies at the University of Wisconsin - Madison ICTR's CTRC) conducted with a baseline sample of 1500 Wisconsin state employees, assessed at four-year intervals.
+The [Wisconsin Sleep Cohort (WSC)](https://pophealth.wisc.edu/research/the-wisconsin-sleep-cohort/) is an ongoing longitudinal study of the causes, consequences, and natural history of sleep disorders, particularly sleep apnea. The WSC uses overnight in-laboratory sleep studies (in-patient studies at the University of Wisconsin - Madison ICTR's CTRC) conducted with a baseline sample of 1,500 Wisconsin state employees, assessed at four-year intervals.
 
 With approximately 100 publications, the WSC study has produced seminal findings on the wide prevalence of sleep apnea; the longitudinal association of sleep apnea with cardiovascular, mental health, and mortality outcomes; and risk factors for sleep disorders including weight gain, the menopausal transition, and alcohol use. The WSC also maintains multiple national and international collaborations related to basic science and population-level sleep research, including partnerships with groups at Stanford, the University of Chicago, Harvard, Toronto, the UK, Poland, France, and others.
+
+The National Sleep Research Resource is grateful to the Wisconsin Sleep Cohort for sharing these data.
 
 ## Citation and acknowledgement
 
