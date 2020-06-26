@@ -10,17 +10,17 @@ The National Sleep Research Resource is grateful to the Wisconsin Sleep Cohort f
 
 When using this dataset, please cite the following:
 
-> [Zhang GQ, Cui L, Mueller R, et al. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018;25(10):1351–1358. doi:10.1093/jamia/ocy064](https://pubmed.ncbi.nlm.nih.gov/29860441/)
+> [Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.)
 >
-> [Young T, Palta M, Dempsey J, Peppard PE, Nieto FJ, Hla KM. Burden of sleep apnea: rationale, design, and major findings of the Wisconsin Sleep Cohort study. WMJ. 2009;108(5):246–249.](https://pubmed.ncbi.nlm.nih.gov/19743755/)
+> [Young T, Palta M, Dempsey J, Peppard PE, Nieto FJ, Hla KM. Burden of sleep apnea: rationale, design, and major findings of the Wisconsin Sleep Cohort study. WMJ. 2009 Aug;108(5):246-9. PMID: 19743755; PMCID: PMC2858234.](https://pubmed.ncbi.nlm.nih.gov/19743755/)
 
 Please include the following text in the Acknowledgements:
 
-> This Wisconsin Sleep Cohort Study was supported by the U.S. National Institutes of Health, National Heart, Lung, and Blood Institute (R01HL62252), National Institute on Aging (R01AG036838, R01AG058680), and the National Center for Research Resources (1UL1RR025011). The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, RFP 75N92019R002).
+> This Wisconsin Sleep Cohort Study was supported by the U.S. National Institutes of Health, National Heart, Lung, and Blood Institute (R01HL62252), National Institute on Aging (R01AG036838, R01AG058680), and the National Center for Research Resources (1UL1RR025011). The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
 
 ## Data overview
 
-**[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core clinic visit and polysomnography results.
+**[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core clinic visit data and polysomnography results.
 
 **[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md))<br/> Raw physiological data from overnight polysomnography.
 
