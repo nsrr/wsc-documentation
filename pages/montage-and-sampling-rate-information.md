@@ -33,8 +33,8 @@ The settings below represent the standards set at the beginning of the project. 
 | Right EOG                   | E2        | E2        | M1      | 100                | Low Pass 30           | -                     |
 | Left Central EEG            | C3_M2     | C3        | M2      | 100                | Low Pass 30           | -                     |
 | Left Occipital EEG          | O1_M2     | O1        | M2      | 100                | Low Pass 30           | -                     |
-| Chin EMG                    | chin      | chin      | Fpz     | 100                | Low Pass 30           | -                     |
-| Linked Left & Right Leg EMG | lleg_r    | lleg_r    | Fpz     | 100                | Low Pass 30           | -                     |
+| Chin EMG                    | chin      | chin      | -     | 100                | Low Pass 30           | -                     |
+| Linked Left & Right Leg EMG | lleg_r    | lleg_r    | -     | 100                | Low Pass 30           | -                     |
 | Snore                       | snore     | snore     | -       | 100                | Low Pass 30           | Microphone                              |
 | ECG                         | ECG       | ECG       | -       | 100                | Low Pass 30           |                                         |
 | Nasal Airflow               | nasalflow | nasalflow | -       | 100                | Low Pass 30           | Thermistor                              |
