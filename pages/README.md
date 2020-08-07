@@ -6,6 +6,10 @@ With approximately 100 publications, the WSC study has produced seminal findings
 
 The National Sleep Research Resource is grateful to the Wisconsin Sleep Cohort for sharing these data.
 
+## Who can access
+
+The WSC dataset is available for **non-commercial use only**. The dataset must be **used for sleep research**. Please keep these guidelines in mind when [starting your WSC data request](https://sleepdata.org/data/requests/wsc/start).
+
 ## Citation and acknowledgement
 
 When using this dataset, please cite the following:
@@ -22,7 +26,7 @@ Please include the following text in the Acknowledgements:
 
 **[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core clinic visit data and polysomnography results.
 
-**[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md))<br/> Raw physiological data from overnight polysomnography.
+**[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md)) <br/> Raw physiological data from overnight polysomnography.
 
 ## Protocols and manuals
 

@@ -1,3 +1,7 @@
+### August 7, 2020
+
+- Add note about who can access dataset to README
+
 ### June 4, 2020
 
 - Add polysomnography and dataset introduction pages
