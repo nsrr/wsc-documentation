@@ -8,7 +8,7 @@ Notes:
 
 ## Signal files
 
-The WSC cohort contains [raw polysomnography signal data](:files_path:/polysomnography) for 2,570 overnight recordings. The study visit breakdown is as follows:
+The WSC cohort contains [raw polysomnography signal data](:files_path:/polysomnography/edfs) for 2,570 overnight recordings. The study visit breakdown is as follows:
 
 - 1,123 recordings at Visit 1
 - 758 recordings at Visit 2
@@ -23,6 +23,9 @@ Each recording contains an EDF signal file in the [European Data Format](http://
 Using [Luna](http://zzz.bwh.harvard.edu/luna/), a list of all channel names were extracted from the EDFs for the Wisconsin Sleep Cohort. Subsequently, the extracted channel names were assigned to a set of new standardized channel names, outlined on the [montage and sampling rate information page](:pages_path:/montage-and-sampling-rate-information.md). Later, the channel names in EDF files were changed to these standardized channel names for consistency with the montage page. Some recordings made on the Grass Heritage system contained two identically named airflow channels with differing traces. These naming issues were corrected, and the "duplicate" traces are now correctly distinguished as Nasal and Oral Airflow.
 
 ## History / changelog
+
+*August 2020*
+- Deposit 2,570 EDFs on NSRR
 
 *May 2020*
 - WSC team submits raw EDF data to NSRR

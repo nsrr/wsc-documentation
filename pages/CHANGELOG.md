@@ -1,3 +1,7 @@
+### August 31, 2020
+
+- Make WSC dataset version 0.1.0 public and available for data requests
+
 ### August 7, 2020
 
 - Add note about who can access dataset to README
