@@ -8,7 +8,7 @@ Notes:
 
 ## Signal files
 
-The WSC cohort contains [raw polysomnography signal data](:files_path:/polysomnography/edfs) for 2,570 overnight recordings. The study visit breakdown is as follows:
+The WSC cohort contains [raw polysomnography signal data](:files_path:/polysomnography) for 2,570 overnight recordings. The study visit breakdown is as follows:
 
 - 1,123 recordings at Visit 1
 - 758 recordings at Visit 2
@@ -16,7 +16,18 @@ The WSC cohort contains [raw polysomnography signal data](:files_path:/polysomno
 - 121 recordings at Visit 4
 - 2 recordings at Visit 5
 
-Each recording contains an EDF signal file in the [European Data Format](http://www.edfplus.info/). [These EDFs](:files_path:/polysomnography/edfs) were exported from the original data collection system and processed in [Luna](http://zzz.bwh.harvard.edu/luna/).
+Each recording contains an EDF signal file in the [European Data Format](http://www.edfplus.info/). [These EDFs](:files_path:/polysomnography) were exported from the original data collection system and processed in [Luna](http://zzz.bwh.harvard.edu/luna/).
+
+## Annotation files
+
+The WSC team provided sleep staging and respiratory event scoring annotations. These annotations are [available alongside the .EDF signal files](:files_path:/polysomnography) in the following formats:
+
+- *.eannot* - One row per epoch with an indication of scored sleep stage (e.g. **wake**, **N1**, **REM**). These annotation files were created by the NSRR team using Luna. [Read more about Luna's .eannot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#eannot-files)
+- *.sco.txt* - WSC original respiratory event scoring for Gamma studies.
+- *.stg.txt* - WSC original staging format for Gamma studies.
+- *.allscore.txt* - WSC original staging and respiratory event scoring for Twin studies.
+
+The staging and scoring rules are described in the [WSC Manual of Operations](:files_path:/documentation/WSCS_Manual_of_Operations.pdf).
 
 ## NSRR signal harmonization
 

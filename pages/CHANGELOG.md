@@ -1,3 +1,9 @@
+### November 2, 2020
+
+- Move PSG EDF files from /polysomnography/edfs to /polysomnography
+- Add .eannot and original staging/scoring annotation files in /polysomnography'
+- Update the polysomnography introduction page with notes about annotation files
+
 ### August 31, 2020
 
 - Make WSC dataset version 0.1.0 public and available for data requests
