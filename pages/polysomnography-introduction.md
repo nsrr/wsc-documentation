@@ -35,6 +35,9 @@ Using [Luna](http://zzz.bwh.harvard.edu/luna/), a list of all channel names were
 
 ## History / changelog
 
+*November 2020*
+- Add .eannot staging files and original scoring annotation files
+
 *August 2020*
 - Deposit 2,570 EDFs on NSRR
 
