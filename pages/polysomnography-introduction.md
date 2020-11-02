@@ -22,10 +22,10 @@ Each recording contains an EDF signal file in the [European Data Format](http://
 
 The WSC team provided sleep staging and respiratory event scoring annotations. These annotations are [available alongside the .EDF signal files](:files_path:/polysomnography) in the following formats:
 
-- *.eannot* - One row per epoch with an indication of scored sleep stage (e.g. **wake**, **N1**, **REM**). These annotation files were created by the NSRR team using Luna. [Read more about Luna's .eannot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#eannot-files)
-- *.sco.txt* - WSC original respiratory event scoring for Gamma studies.
-- *.stg.txt* - WSC original staging format for Gamma studies.
-- *.allscore.txt* - WSC original staging and respiratory event scoring for Twin studies.
+- **.eannot** - One row per epoch with an indication of scored sleep stage (e.g. *wake*, *N1*, *N2*, *N3*, *REM*). These annotation files were created by the NSRR team using Luna. [Read more about Luna's .eannot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#eannot-files)
+- **.sco.txt** - WSC original respiratory event scoring for Gamma studies.
+- **.stg.txt** - WSC original staging format for Gamma studies.
+- **.allscore.txt** - WSC original staging and respiratory event scoring for Twin studies.
 
 The staging and scoring rules are described in the [WSC Manual of Operations](:files_path:/documentation/WSCS_Manual_of_Operations.pdf).
 
