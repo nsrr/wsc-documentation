@@ -1,3 +1,7 @@
+### April 28, 2021
+
+- Version 0.2.0 dataset released, including incident outcomes tracking
+
 ### November 2, 2020
 
 - Move PSG EDF files from /polysomnography/edfs to /polysomnography

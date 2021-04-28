@@ -12,7 +12,14 @@ Participants have up to five (5) records in the dataset. Each record corresponds
 
 Click [here to browse the WSC dataset variables](https://sleepdata.org/datasets/wsc/variables).
 
+# Incident outcomes tracking
+
+The WSC team tracks incident cardiovascular disease (CVD) and mortality outcomes among participants who had not experienced a CVD event or stroke at the time of enrollment. Click [here to browse the outcomes variables](https://sleepdata.org/datasets/wsc/variables?folder=Clinical+Data/Incident+Outcomes/Cardiovascular+Diseases).
+
 ## History / changelog
+
+*April 2021*
+- Version 0.2.0 of dataset released, including incident outcomes tracking
 
 *May 2020*
 - WSC team submits source data to NSRR
