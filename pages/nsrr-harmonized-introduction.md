@@ -1,3 +1,5 @@
+# NSRR Harmonized introduction
+
 NSRR Harmonized version of WSC dataset provides users with a unique set of files with basic validations, summaries of annotations & channels, and Canonical files.  This NSRR Harmonized version has gone through the below processing steps:
 1. Checks to identify inconsistent files
     1. Evaluate consistent Data Delimiter and number of columns across all scoring files with particular category 
@@ -27,23 +29,26 @@ Above process of Harmonization of WSC dataset is captured in detail at [proc.md]
 
 ## File Structure
 
-- **.eannot** - One row per epoch with an indication of scored sleep stage (e.g. *wake*, *N1*, *N2*, *N3*, *REM*). These annotation files were created by the NSRR team using Luna. [Read more about Luna's .eannot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#eannot-files)
-
 1. Canonical EDF's and Sample list
 2. .eannot and .annot files
+    - **.eannot** - One row per epoch with an indication of scored sleep stage (e.g. *wake*, *N1*, *N2*, *N3*, *REM*). These annotation files were created by the NSRR team using Luna. [Read more about Luna's .eannot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#annot-files)
+    - **.annot** - One row per annotation event with certain metadata information. [Read more about Luna's .annot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#eannot-files)
+
 3. Annotation summary file(s)
 4. Channel summary file
-5. excludes files
+5. 'excludes' file
 
 
 ## Signal harmonization
 
 Using [Luna](http://zzz.bwh.harvard.edu/luna/), a list of all channel names were extracted from the EDFs for the Wisconsin Sleep Cohort. Subsequently, the extracted channel names were assigned to a set of new standardized channel names, outlined on the [montage and sampling rate information page](:pages_path:/montage-and-sampling-rate-information.md). Later, the channel names in EDF files were changed to these standardized channel names for consistency with the montage page. Some recordings made on the Grass Heritage system contained two identically named airflow channels with differing traces. These naming issues were corrected, and the "duplicate" traces are now correctly distinguished as Nasal and Oral Airflow.
 
+
 ## History / changelog
 
 *May 2021*
 - Added version 1 of NSRR Harmonized files
+
 
 ## Questions?
 
