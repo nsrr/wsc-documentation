@@ -18,14 +18,14 @@ NSRR Harmonized version of WSC dataset provides users with a unique set of files
     2. Based on above mapping, '.annot' and '.eannot' files are generated
 
 4. Channels processing:
-    1. Canonical Signals definitions are created and stored in sigs.canonical file found at [sigs.canonical] (https://gitlab-scm.partners.org/zzz-public/nsrr/-/blob/master/studies/wsc/sigs.canonical)
+    1. Canonical Signals definitions are created and stored in sigs.canonical file found at [sigs.canonical](https://gitlab-scm.partners.org/zzz-public/nsrr/-/blob/master/studies/wsc/sigs.canonical)
     2. Canonical EDF's and sample list are generated based on sigs.canonical file
         - Regenerated Signals (EEG,ECG,EMG,LOC,ROC,CAN,TRM,THX,ABD,OXY and POS) with prefix 'cs'
         - Re-sampled above Signals
         - Dropped all other signals
 
 
-Above process of Harmonization of WSC dataset is captured in detail at [proc.md] (https://gitlab-scm.partners.org/zzz-public/nsrr/-/blob/master/studies/wsc/proc.md)
+Above process of Harmonization of WSC dataset is captured in detail at [proc.md](https://gitlab-scm.partners.org/zzz-public/nsrr/-/blob/master/studies/wsc/proc.md)
 
 
 ## File Structure
