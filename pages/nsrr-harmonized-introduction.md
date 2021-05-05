@@ -6,7 +6,8 @@ NSRR Harmonized version of WSC dataset provides users with a unique set of files
     2. Evaluate EDF Sample rate to identify any floating/weird values
     3. Evaluate EDF duration to identify any floating/weird values
     4. Evaluate alignment of Epochs and annotations
-All the inconsistent files from above checks are added to 'excludes' file
+    
+        All the inconsistent files from above checks are added to 'excludes' file
 
 2. Summary:
     1. Annotations and stages summary are stored in '.annots' and '.stages' files respectively
