@@ -22,7 +22,6 @@ Each recording contains an EDF signal file in the [European Data Format](http://
 
 The WSC team provided sleep staging and respiratory event scoring annotations. These annotations are [available alongside the .EDF signal files](:files_path:/polysomnography) in the following formats:
 
-- **.eannot** - One row per epoch with an indication of scored sleep stage (e.g. *wake*, *N1*, *N2*, *N3*, *REM*). These annotation files were created by the NSRR team using Luna. [Read more about Luna's .eannot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#eannot-files)
 - **.sco.txt** - WSC original respiratory event scoring for Gamma studies.
 - **.stg.txt** - WSC original staging format for Gamma studies.
 - **.log.txt** - WSC original biocalibrations and light indicators for Gamma studies.
@@ -30,11 +29,11 @@ The WSC team provided sleep staging and respiratory event scoring annotations. T
 
 The staging and scoring rules are described in the [WSC Manual of Operations](:files_path:/documentation/WSCS_Manual_of_Operations.pdf).
 
-## NSRR signal harmonization
-
-Using [Luna](http://zzz.bwh.harvard.edu/luna/), a list of all channel names were extracted from the EDFs for the Wisconsin Sleep Cohort. Subsequently, the extracted channel names were assigned to a set of new standardized channel names, outlined on the [montage and sampling rate information page](:pages_path:/montage-and-sampling-rate-information.md). Later, the channel names in EDF files were changed to these standardized channel names for consistency with the montage page. Some recordings made on the Grass Heritage system contained two identically named airflow channels with differing traces. These naming issues were corrected, and the "duplicate" traces are now correctly distinguished as Nasal and Oral Airflow.
 
 ## History / changelog
+
+*May 2021*
+- Split .eannot staging files and NSRR signal Harmonization into NSRR Harmonized WSC dataset version
 
 *November 2020*
 - Add .eannot staging files and original scoring annotation files
