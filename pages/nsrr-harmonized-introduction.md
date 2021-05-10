@@ -23,7 +23,7 @@ NSRR Harmonized version of WSC dataset provides users with a unique set of files
         - Regenerated Signals (EEG,ECG,EMG,LOC,ROC,CAN,TRM,THX,ABD,OXY and POS) with prefix 'cs'
         - Re-sampled above Signals
         - Dropped all other signals
-    3. Also, we have performed Header anonymization while generating Canonical EDF's [Read more about Luna's ANON command](http://zzz.bwh.harvard.edu/luna/ref/manipulations/#anon)
+    3. Also, we have performed Header anonymization while generating Canonical EDF's. [Read more about Luna's ANON command](http://zzz.bwh.harvard.edu/luna/ref/manipulations/#anon)
 
 
 Above process of Harmonization of WSC dataset is captured in detail at [proc.md](https://gitlab-scm.partners.org/zzz-public/nsrr/-/blob/master/studies/wsc/proc.md)
