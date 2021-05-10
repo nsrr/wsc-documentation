@@ -2,7 +2,7 @@
 
 NSRR Harmonized version of WSC dataset provides users with a unique set of files with basic validations, summaries of annotations & channels, and Canonical files.  This NSRR Harmonized version has gone through the below processing steps:
 1. Checks to identify inconsistent files
-    1. Evaluate consistent Data Delimiter and number of columns across all scoring files with particular category 
+    1. Evaluate consistent Data Delimiter and number of columns across all scoring files within particular category 
     2. Evaluate EDF Sample rate to identify any floating/weird values
     3. Evaluate EDF duration to identify any floating/weird values
     4. Evaluate alignment of Epochs and annotations
@@ -23,6 +23,7 @@ NSRR Harmonized version of WSC dataset provides users with a unique set of files
         - Regenerated Signals (EEG,ECG,EMG,LOC,ROC,CAN,TRM,THX,ABD,OXY and POS) with prefix 'cs'
         - Re-sampled above Signals
         - Dropped all other signals
+    3. Also, we have performed Header anonymization while generating Canonical EDF's [Read more about Luna ANON command](http://zzz.bwh.harvard.edu/luna/ref/manipulations/#anon)
 
 
 Above process of Harmonization of WSC dataset is captured in detail at [proc.md](https://gitlab-scm.partners.org/zzz-public/nsrr/-/blob/master/studies/wsc/proc.md)
