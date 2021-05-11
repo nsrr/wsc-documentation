@@ -1,3 +1,7 @@
+### May 10, 2021
+
+- Add more information about PSG equipment to polysomnography introduction
+
 ### April 28, 2021
 
 - Version 0.2.0 dataset released, including incident outcomes tracking
