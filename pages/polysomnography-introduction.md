@@ -7,9 +7,11 @@ The Sleep Research Laboratory is part of the Clinical and Translational Research
 ## Equipment
 
 [6/2000-10/2009]: Heritage System, Grass - Telefactor (**Gamma**)
+
 Each sleep room is served by a single-bed Grass-Telefactor Heritage digital sleep system. The systems have 16 channels, 8 selectable and 8 fixed, with 4 DC coupled auxiliary inputs.  Both systems are equipped with 15A54 research amplifiers having a bandwidth of 0.5Hz-6kHz.
 
 [10/2009 – 12/2015]: Comet Lab Based system, Grass Technologies (**Twin**)
+
 Each sleep room is served by a single-bed Grass Technologies Comet Lab - based digital sleep system. The systems have 40 AC channels, 31 referential and 9 bipolar, with 8 DC coupled auxiliary inputs.  Both systems are equipped with AS40 research amplifiers having a bandwidth of 1.0Hz-100Hz.
 
 In addition to the two recording systems, the control room also has a reviewer station for data analysis.  All systems are networked, allowing for off-site review and analysis.
