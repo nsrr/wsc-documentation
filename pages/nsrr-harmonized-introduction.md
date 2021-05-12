@@ -31,6 +31,8 @@ Above process of Harmonization of WSC dataset is captured in detail at [proc.md]
 
 ## File Structure
 
+For each of the two recording system (**[/polysomnography](:files_path:/polysomnography)** equipment section) - Twin and Gamma, we have following file structure listed under them
+
 1. /canonical folder consisting of:
    - Canonical EDF's 
    - .eannot and .annot files
