@@ -1,6 +1,24 @@
 # Polysomnography introduction
 
+## Description and overview
+
 The Sleep Research Laboratory is part of the Clinical and Translational Research Core of the University of Wisconsin.  The Research Laboratory is in a dedicated wing of the CTRC unit in University of Wisconsin Hospital and Clinics. The Sleep Research Lab consists of two sleep rooms and a control room. The sleep rooms are used almost exclusively by the Wisconsin Sleep Cohort Study, but are also available for other researchers.
+
+## Equipment
+
+[6/2000-10/2009]: Heritage System, Grass - Telefactor (**Gamma**)
+
+Each sleep room is served by a single-bed Grass-Telefactor Heritage digital sleep system. The systems have 16 channels, 8 selectable and 8 fixed, with 4 DC coupled auxiliary inputs.  Both systems are equipped with 15A54 research amplifiers having a bandwidth of 0.5Hz-6kHz.
+
+[10/2009 – 12/2015]: Comet Lab Based system, Grass Technologies (**Twin**)
+
+Each sleep room is served by a single-bed Grass Technologies Comet Lab - based digital sleep system. The systems have 40 AC channels, 31 referential and 9 bipolar, with 8 DC coupled auxiliary inputs.  Both systems are equipped with AS40 research amplifiers having a bandwidth of 1.0Hz-100Hz.
+
+In addition to the two recording systems, the control room also has a reviewer station for data analysis.  All systems are networked, allowing for off-site review and analysis.
+
+The two sleep rooms and control room are equipped with state-of-the-art video and audio monitoring. Input/output connections between sleep room and control room are made through in-the-wall connector panels for increased assurance of optimum signal-to-noise ratios.
+
+Polysomnography is obtained from EEG scalp electrodes, electrooculogram, EMG of chin and legs, ECG, snore microphone, airflow from Dymedix nasal-oral thermistor, Pro-Tech nasal pressure transducer, breathing effort from Pro-Tech zRIP inductance plethysmography summation systems, and oxygen hemoglobin from the Ohmeda 3900 oximeter using a 3-second averaging rate.
 
 Notes:
 - [WSCS Manual of Operations (PDF)](:files_path:/documentation/WSCS_Manual_of_Operations.pdf)
