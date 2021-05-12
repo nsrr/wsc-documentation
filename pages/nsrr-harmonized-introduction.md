@@ -2,16 +2,16 @@
 
 NSRR Harmonized version of WSC dataset provides users with a unique set of files with basic validations, summaries of annotations & channels, and Canonical files.  This NSRR Harmonized version has gone through the below processing steps:
 1. Checks to identify inconsistent files
-    1. Evaluate consistent Data Delimiter and number of columns across all scoring files within particular category 
+    1. Evaluate consistent Data Delimiter and number of columns across all scoring files within particular category
     2. Evaluate EDF Sample rate to identify any floating/weird values
     3. Evaluate EDF duration to identify any floating/weird values
     4. Evaluate alignment of Epochs and annotations
-    
+
         All the inconsistent files from above checks are added to 'excludes' file
 
 2. Summary:
     1. Annotations and stages summaries are generated
-    2. Channels summary is generated 
+    2. Channels summary is generated
 
 3. Annotations processing:
     1. Annotations are re-mapped to NSRR terms ( [annots.md](https://gitlab-scm.partners.org/zzz-public/nsrr/-/blob/master/common/annots.md))
@@ -31,10 +31,10 @@ Above process of Harmonization of WSC dataset is captured in detail at [proc.md]
 
 ## File Structure
 
-For each of the two recording system (**[/polysomnography](:files_path:/polysomnography)** equipment section) - Twin and Gamma, we have following file structure listed under them
+For each of the two recording systems ([see equipment section](:pages_path:/polysomnography-introduction.md)) - Twin and Gamma, we have following file structure listed under them
 
 1. /canonical folder consisting of:
-   - Canonical EDF's 
+   - Canonical EDF's
    - .eannot and .annot files
       - **.eannot** - One row per epoch with an indication of scored sleep stage (e.g. *wake*, *N1*, *N2*, *N3*, *REM*). These annotation files were created by the NSRR team using Luna. [Read more about Luna's .eannot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#annot-files)
       - **.annot** - One row per annotation event with certain metadata information. [Read more about Luna's .annot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#eannot-files)
