@@ -10,16 +10,16 @@ NSRR Harmonized version of WSC dataset provides users with a unique set of files
         All the inconsistent files from above checks are added to 'excludes' file
 
 2. Summary:
-    1. Annotations and stages summary are stored in '.annots' and '.stages' files respectively
-    2. Channels summary is stored in '.channels' file
+    1. Annotations and stages summaries are generated
+    2. Channels summary is generated 
 
 3. Annotations processing:
-    1. Annotations are re-mapped to NSRR terms 
+    1. Annotations are re-mapped to NSRR terms ( [annots.md](https://gitlab-scm.partners.org/zzz-public/nsrr/-/blob/master/common/annots.md))
     2. Based on above mapping, '.annot' and '.eannot' files are generated
 
 4. Channels processing:
-    1. Canonical Signals definitions are created and stored in sigs.canonical file found at [sigs.canonical](https://gitlab-scm.partners.org/zzz-public/nsrr/-/blob/master/studies/wsc/sigs.canonical)
-    2. Canonical EDF's and sample list are generated based on sigs.canonical file
+    1. Based on Channels summary, canonical Signals definitions are created and stored in sigs.canonical file found at [sigs.canonical](https://gitlab-scm.partners.org/zzz-public/nsrr/-/blob/master/studies/wsc/sigs.canonical)
+    2. Canonical EDF's are generated based on sigs.canonical file
         - Regenerated Signals (EEG,ECG,EMG,LOC,ROC,CAN,TRM,THX,ABD,OXY and POS) with prefix 'cs'
         - Re-sampled above Signals
         - Dropped all other signals
@@ -31,14 +31,12 @@ Above process of Harmonization of WSC dataset is captured in detail at [proc.md]
 
 ## File Structure
 
-1. Canonical EDF's and Sample list
-2. .eannot and .annot files
-    - **.eannot** - One row per epoch with an indication of scored sleep stage (e.g. *wake*, *N1*, *N2*, *N3*, *REM*). These annotation files were created by the NSRR team using Luna. [Read more about Luna's .eannot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#annot-files)
-    - **.annot** - One row per annotation event with certain metadata information. [Read more about Luna's .annot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#eannot-files)
-
-3. Annotation summary file(s)
-4. Channel summary file
-5. 'excludes' file
+1. /canonical folder consisting of:
+   - Canonical EDF's 
+   - .eannot and .annot files
+      - **.eannot** - One row per epoch with an indication of scored sleep stage (e.g. *wake*, *N1*, *N2*, *N3*, *REM*). These annotation files were created by the NSRR team using Luna. [Read more about Luna's .eannot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#annot-files)
+      - **.annot** - One row per annotation event with certain metadata information. [Read more about Luna's .annot annotation format.](http://zzz.bwh.harvard.edu/luna/ref/annotations/#eannot-files)
+2. 'excludes' - File listing all the filenames that were excluded from the orignal dataset due to inconsistencies.
 
 
 ## Signal harmonization
