@@ -47,11 +47,14 @@ The WSC team provided sleep staging and respiratory event scoring annotations. T
 
 The staging and scoring rules are described in the [WSC Manual of Operations](:files_path:/documentation/WSCS_Manual_of_Operations.pdf).
 
+## NSRR signal harmonization
+
+Using [Luna](http://zzz.bwh.harvard.edu/luna/), a list of all channel names were extracted from the EDFs for the Wisconsin Sleep Cohort. Subsequently, the extracted channel names were assigned to a set of new standardized channel names, outlined on the [montage and sampling rate information page](:pages_path:/montage-and-sampling-rate-information.md). Later, the channel names in EDF files were changed to these standardized channel names for consistency with the montage page. Some recordings made on the Grass Heritage system contained two identically named airflow channels with differing traces. These naming issues were corrected, and the "duplicate" traces are now correctly distinguished as Nasal and Oral Airflow.
 
 ## History / changelog
 
-*May 2021*
-- Split .eannot staging files and NSRR signal Harmonization into NSRR Harmonized WSC dataset version
+*June 2021*
+- .eannot staging files removed. The NSRR team will revisit harmonized EDFs/annotations in the future. Please use the original WSC annotation files at this time.
 
 *November 2020*
 - Add .eannot staging files and original scoring annotation files

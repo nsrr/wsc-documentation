@@ -32,8 +32,6 @@ Please include the following text in the Acknowledgements:
 
 **[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md)) <br/> Raw physiological data from overnight polysomnography.
 
-**[/nsrr-harmonized](:files_path:/nsrr-harmonized)** ([introduction](:pages_path:/nsrr-harmonized-introduction.md)) <br/> NSRR Harmonized version of raw physiological data from overnight polysomnography.
-
 ## Protocols and manuals
 
 - [WSCS Manual of Operations (PDF)](:files_path:/documentation/WSCS_Manual_of_Operations.pdf)
