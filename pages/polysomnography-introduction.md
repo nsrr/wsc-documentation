@@ -41,7 +41,15 @@ Each recording contains an EDF signal file in the [European Data Format](http://
 The WSC team provided sleep staging and respiratory event scoring annotations. These annotations are [available alongside the .EDF signal files](:files_path:/polysomnography) in the following formats:
 
 - **.sco.txt** - WSC original respiratory event scoring for Gamma studies.
-- **.stg.txt** - WSC original staging format for Gamma studies.
+- **.stg.txt** - WSC original staging format for Gamma studies. The sleep staging codes are as follows:
+- - 0: Wake
+- - 1: N1
+- - 2: N2
+- - 3: N3
+- - 4: N4
+- - 5: REM
+- - 6: Movement
+- - 7: No stage
 - **.log.txt** - WSC original biocalibrations and light indicators for Gamma studies.
 - **.allscore.txt** - WSC original staging and respiratory event scoring for Twin studies.
 
