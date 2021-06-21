@@ -23,6 +23,7 @@ Polysomnography is obtained from EEG scalp electrodes, electrooculogram, EMG of 
 Notes:
 - [WSCS Manual of Operations (PDF)](:files_path:/documentation/WSCS_Manual_of_Operations.pdf)
 - [Montage and Sampling Rate Information](:pages_path:/montage-and-sampling-rate-information.md)
+- [WSCS Scoring Annotation Documentation (XLSX)](:files_path:/documentation/wsc-scoring-annotation-documentation.xlsx)
 
 ## Signal files
 
@@ -53,7 +54,7 @@ The WSC team provided sleep staging and respiratory event scoring annotations. T
 - **.log.txt** - WSC original biocalibrations and light indicators for Gamma studies.
 - **.allscore.txt** - WSC original staging and respiratory event scoring for Twin studies.
 
-The staging and scoring rules are described in the [WSC Manual of Operations](:files_path:/documentation/WSCS_Manual_of_Operations.pdf).
+The staging and scoring rules are described in the [WSC Manual of Operations](:files_path:/documentation/WSCS_Manual_of_Operations.pdf). The WSC team [provided a spreadsheet](:files_path:/documentation/wsc-scoring-annotation-documentation.xlsx) with additional details about the annotation files.
 
 ## NSRR signal harmonization
 
