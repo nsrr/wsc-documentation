@@ -1,3 +1,7 @@
+### October 20, 2021
+
+- Update data access restrictions to specify use is limited to users affiliated with an academic research institution
+
 ### May 10, 2021
 
 - Add more information about PSG equipment to polysomnography introduction
