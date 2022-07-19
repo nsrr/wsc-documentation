@@ -14,7 +14,7 @@ Click [here to browse the WSC dataset variables](https://sleepdata.org/datasets/
 
 ## Death tracking
 
-The WSC team tracks incident events and among enrolled subjects. Death certificate searches are completed on a regular basis. Cause of death comes from death certificates with an internal adjudication process to categorize cause of death into groups for research purposes. Click [here to browse the death adjudication variables](https://sleepdata.org/datasets/wsc/variables?folder=Clinical+Data/Incident+Outcomes).
+The WSC team tracks incident events and deaths among enrolled subjects. Death certificate searches are completed on a regular basis. Cause of death comes from death certificates with an internal adjudication process to categorize cause of death into groups for research purposes. Click [here to browse the death adjudication variables](https://sleepdata.org/datasets/wsc/variables?folder=Clinical+Data/Incident+Outcomes).
 
 ## History / changelog
 
