@@ -35,6 +35,7 @@ Please include the following text in the Acknowledgements:
 ## Protocols and manuals
 
 - [WSCS Manual of Operations (PDF)](:files_path:/documentation/WSCS_Manual_of_Operations.pdf)
+- [WSCS Multiple Sleep Latency Test Manual of Operations (PDF)](:files_path:/documentation/WSCS_Multiple_Sleep_Latency_Test_Manual_of_Operations.pdf)
 
 ## Recent Changes
 
