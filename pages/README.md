@@ -30,6 +30,8 @@ Please include the following text in the Acknowledgements:
 
 **[/datasets](:files_path:/datasets)** ([introduction](:pages_path:/dataset-introduction.md)) <br/> Core clinic visit data and polysomnography results.
 
+**[/mslt](:files_path:/mslt)** <br/> Raw physiological data from Multiple Sleep Latency Test (MSLT).
+
 **[/polysomnography](:files_path:/polysomnography)** ([introduction](:pages_path:/polysomnography-introduction.md)) <br/> Raw physiological data from overnight polysomnography.
 
 ## Protocols and manuals

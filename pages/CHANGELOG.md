@@ -1,3 +1,7 @@
+### January 26, 2023
+
+- Incorporate raw and summary data from Multiple Sleep Latency Tests
+
 ### October 20, 2021
 
 - Update data access restrictions to specify use is limited to users affiliated with an academic research institution
