@@ -1,3 +1,7 @@
+## January 9, 2024
+
+- Add [annotation logs (.txt, .xls) for Multiple Sleep Latency Tests](:files_path:/mslt)
+
 ### January 26, 2023
 
 - Incorporate raw and summary data from Multiple Sleep Latency Tests
