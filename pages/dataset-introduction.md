@@ -12,11 +12,10 @@ Participants have up to five (5) records in the dataset. Each record corresponds
 
 Click [here to browse the WSC dataset variables](https://sleepdata.org/datasets/wsc/variables).
 
-## Death tracking
-
-The WSC team tracks incident events and deaths among enrolled subjects. Death certificate searches are completed on a regular basis. Cause of death comes from death certificates with an internal adjudication process to categorize cause of death into groups for research purposes. Click [here to browse the death adjudication variables](https://sleepdata.org/datasets/wsc/variables?folder=Clinical+Data/Incident+Outcomes).
-
 ## History / changelog
+
+*July 2024*
+- Version 0.7.0 of dataset released, removing death adjudication data (contributor request), adding [ahi3](:variables_path:/ahi3), and adding [many new drug/medication variables](https://sleepdata.org/datasets/wsc/variables?folder=Medical+History%2FMedications)
 
 *July 2022*
 - Version 0.5.0 of dataset released, replacing incident CVD/stroke data with death adjudication data
