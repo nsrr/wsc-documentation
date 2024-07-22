@@ -15,7 +15,7 @@ Click [here to browse the WSC dataset variables](https://sleepdata.org/datasets/
 ## History / changelog
 
 *July 2024*
-- Version 0.7.0 of dataset released, removing death adjudication data (contributor request), adding [ahi3](:variables_path:/ahi3), and adding [many new drug/medication variables](https://sleepdata.org/datasets/wsc/variables?folder=Medical+History%2FMedications)
+- Version 0.7.0 of dataset released, removing death adjudication data (WSC contributor request due to new data sharing provisions), adding [ahi3](:variables_path:/ahi3), and adding [many new drug/medication variables](https://sleepdata.org/datasets/wsc/variables?folder=Medical+History%2FMedications)
 
 *July 2022*
 - Version 0.5.0 of dataset released, replacing incident CVD/stroke data with death adjudication data

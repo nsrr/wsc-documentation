@@ -1,7 +1,7 @@
-## July 17, 2024
-- Version 0.7.0 of dataset released, removing death adjudication data (contributor request), adding [ahi3](:variables_path:/ahi3), and adding [many new drug/medication variables](https://sleepdata.org/datasets/wsc/variables?folder=Medical+History%2FMedications)
+### July 17, 2024
+- Version 0.7.0 of dataset released, removing death adjudication data (WSC contributor request due to new data sharing provisions), adding [ahi3](:variables_path:/ahi3), and adding [many new drug/medication variables](https://sleepdata.org/datasets/wsc/variables?folder=Medical+History%2FMedications)
 
-## January 9, 2024
+### January 9, 2024
 
 - Add [annotation logs (.txt, .xls) for Multiple Sleep Latency Tests](:files_path:/mslt)
 
