@@ -46,7 +46,7 @@ All personally identifiable information (PII) has been removed from the data fil
 
 ### Covariate/phenotype datasets (CSV)
 
-The covariate dataset for the Wisconsin Sleep Cohort (WSC) study (**wsc-dataset-0.8.0.csv)** contains a collection of detailed participant data, with one file for each data release. The dataset consists of multiple columns, each representing a specific variable, with a unique participant identifier `[wsc_id](https://sleepdata.org/datasets/wsc/variables/wsc_id)`. Each column is described in the accompanying **variables** data dictionary, which provides column names, labels (display names), detailed descriptions, and metadata. Categorical variables also include an associated "domain" (e.g., 0=Male, 1=Female), which are described in the **domains** data dictionary file. Additional documentation links each variable to the original survey forms used in the study.
+The covariate dataset for the Wisconsin Sleep Cohort (WSC) study (**wsc-dataset-0.8.0.csv)** contains a collection of detailed participant data, with one file for each data release. The dataset consists of multiple columns, each representing a specific variable, with a unique participant identifier [wsc_id]([`https://sleepdata.org/datasets/wsc/variables/wsc_id`](https://sleepdata.org/datasets/wsc/variables/wsc_id)`).` Each column is described in the accompanying **variables** data dictionary, which provides column names, labels (display names), detailed descriptions, and metadata. Categorical variables also include an associated "domain" (e.g., 0=Male, 1=Female), which are described in the **domains** data dictionary file. Additional documentation links each variable to the original survey forms used in the study.
 
 For further reference, the dataset and data dictionary files are tracked on GitHub, ensuring transparency and accessibility for research purposes (<https://github.com/nsrr/wsc-data-dictionary>).
 
@@ -105,7 +105,7 @@ Please include the following text in the Acknowledgements:
 ## Protocols and manuals
 
 -   [WSCS Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/m/browser/documentation/WSCS_Manual_of_Operations.pdf)
--   [WSCS Multiple Sleep Latency Test Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/documentation/	WSCS_Multiple_Sleep_Latency_Test_Manual_of_Operations.pdf)
+-   [WSCS Multiple Sleep Latency Test Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/m/browser/documentation/WSCS_Multiple_Sleep_Latency_Test_Manual_of_Operations.pdf?inline=1)
 
 ## Changelog
 
