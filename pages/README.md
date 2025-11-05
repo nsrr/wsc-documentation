@@ -46,7 +46,7 @@ All personally identifiable information (PII) has been removed from the data fil
 
 ### Covariate/phenotype datasets (CSV)
 
-The covariate dataset for the Wisconsin Sleep Cohort (WSC) study (**wsc-dataset-0.8.0.csv)** contains a collection of detailed participant data, with one file for each data release. The dataset consists of multiple columns, each representing a specific variable, with a unique participant identifier [wsc_id]([`https://sleepdata.org/datasets/wsc/variables/wsc_id`](https://sleepdata.org/datasets/wsc/variables/wsc_id)`).` Each column is described in the accompanying **variables** data dictionary, which provides column names, labels (display names), detailed descriptions, and metadata. Categorical variables also include an associated "domain" (e.g., 0=Male, 1=Female), which are described in the **domains** data dictionary file. Additional documentation links each variable to the original survey forms used in the study.
+The covariate dataset for the Wisconsin Sleep Cohort (WSC) study (**wsc-dataset-0.8.0.csv)** contains a collection of detailed participant data, with one file for each data release. The dataset consists of multiple columns, each representing a specific variable, with a unique participant identifier [wsc_id](https://sleepdata.org/datasets/wsc/variables/wsc_id%60%5D(https://sleepdata.org/datasets/wsc/variables/wsc_id). Each column is described in the accompanying **variables** data dictionary, which provides column names, labels (display names), detailed descriptions, and metadata. Categorical variables also include an associated "domain" (e.g., 0=Male, 1=Female), which are described in the **domains** data dictionary file. Additional documentation links each variable to the original survey forms used in the study.
 
 For further reference, the dataset and data dictionary files are tracked on GitHub, ensuring transparency and accessibility for research purposes (<https://github.com/nsrr/wsc-data-dictionary>).
 
@@ -106,6 +106,7 @@ Please include the following text in the Acknowledgements:
 
 -   [WSCS Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/m/browser/documentation/WSCS_Manual_of_Operations.pdf)
 -   [WSCS Multiple Sleep Latency Test Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/m/browser/documentation/WSCS_Multiple_Sleep_Latency_Test_Manual_of_Operations.pdf?inline=1)
+-   [WSCS Mailed Surveys Documentation (PDF)](https://sleepdata.org/datasets/wsc/files/documentation/)
 
 ## Changelog
 
@@ -117,7 +118,7 @@ Please include the following text in the Acknowledgements:
 
 -   Update variable folder paths to match current folder structure
 
--   Add 4 new harmonized PSG variables (nsrr_avgdurah_hp4u; nsrr_pctdursp_salt90; nsrr_avglvlsa; nsrr_minlvlsa)
+-   Add 4 new harmonized PSG variables (`nsrr_avgdurah_hp4u`; `nsrr_pctdursp_salt90`; `nsrr_avglvlsa`; `nsrr_minlvlsa`)
 
 -   Create new `nsrr_file_prefix` variable
 
@@ -129,7 +130,7 @@ Please include the following text in the Acknowledgements:
 
 -   Remove death data (WSC contributor request)
 
--   Add ahi3 variable
+-   Add `ahi3` variable
 
 -   Add harmonized sleep architecture variables
 
@@ -151,11 +152,11 @@ Please include the following text in the Acknowledgements:
 
 **0.5.0 (July 19, 2022)**
 
--   Update mean seated systolic (sbp_mean) and diastolic (dbp_mean) blood pressure variables (WSC team change)
+-   Update mean seated systolic (`sbp_mean`) and diastolic (`dbp_mean`) blood pressure variables (WSC team change)
 
 -   Remove individual readings for seated systolic and distolic blood pressure (WSC team change)
 
--   Add harmonized seated blood pressure (nsrr_bp_diastolic, nsrr_bp_systolic)
+-   Add harmonized seated blood pressure (`nsrr_bp_diastolic`, `nsrr_bp_systolic`)
 
 -   Add updated death data from WSC team
 
@@ -167,7 +168,7 @@ Please include the following text in the Acknowledgements:
 
 **0.4.0 (February 24, 2022)**
 
--   Add harmonized core polysomnography variables (nsrr\_\*)
+-   Add harmonized core polysomnography variables (`nsrr_*`)
 
 -   The CSV datasets generated from a SAS export is located here:
 
@@ -177,7 +178,7 @@ Please include the following text in the Acknowledgements:
 
 -   Include additional context for blood draw variables (drawn morning after PSG)
 
--   Add initial set of harmonized variables (nsrr\_\*)
+-   Add initial set of harmonized variables (`nsrr_*`)
 
 -   The CSV datasets generated from a SAS export is located here:
 
@@ -189,7 +190,7 @@ Please include the following text in the Acknowledgements:
 
 -   Add `wsc-incident` dataset with incident CVD/stroke outcomes
 
--   Modify metadata for many medical history variables (e.g. stroke_ynd)
+-   Modify metadata for many medical history variables (e.g. `stroke_ynd`)
 
 -   The CSV datasets generated from a SAS export is located here:
 
