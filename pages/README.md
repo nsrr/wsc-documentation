@@ -1,6 +1,6 @@
 ## About
 
-The [Wisconsin Sleep Cohort (WSC)](https://pophealth.wisc.edu/research/the-wisconsin-sleep-cohort/) was a longitudinal, observational study conducted from 1988 to 2019, designed to investigate the prevalence, causes, and consequences of sleep disorders in adults. The study employed a two-stage sampling design to oversample individuals at high risk for sleep apnea. All employees aged 30 to 60 years who worked for four large state agencies were surveyed about their sleep patterns and other characteristics by a mailed questionnaire. The timeline includes Survey 1 (1988-1993), Survey 2 (1994), and Survey 3 (2000-2001). Data from six question responses from Survey 1 were used to classify survey participants as high risk and low risk for sleep apnea to be invited to participate in the Wisconsin Sleep Cohort Study. The study recruited 1,500 individuals aged 30–60, initially free of major health conditions, and followed them through repeated overnight in-lab polysomnography (PSG) studies and questionnaires approximately every four years. The primary aim was to examine sleep-disordered breathing, particularly sleep apnea, and its association with a range of health outcomes, including cardiovascular disease, metabolic dysfunction, and mental health disorders.
+The [Wisconsin Sleep Cohort (WSC)](https://pophealth.wisc.edu/research/the-wisconsin-sleep-cohort/) was a longitudinal, observational study conducted from 1988 to 2019, designed to investigate the prevalence, causes, and consequences of sleep disorders in adults. The study employed a two-stage sampling design to over-sample individuals at high risk for sleep apnea. All employees aged 30 to 60 years who worked for four large state agencies were surveyed about their sleep patterns and other characteristics by a mailed questionnaire. The timeline includes Survey 1 (1988-1993), Survey 2 (1994), and Survey 3 (2000-2001). Data from six question responses from Survey 1 were used to classify survey participants as high risk and low risk for sleep apnea to be invited to participate in the Wisconsin Sleep Cohort Study. The study recruited 1,500 individuals aged 30–60, initially free of major health conditions, and followed them through repeated overnight in-lab polysomnography (PSG) studies and questionnaires approximately every four years. The primary aim was to examine sleep-disordered breathing, particularly sleep apnea, and its association with a range of health outcomes, including cardiovascular disease, metabolic dysfunction, and mental health disorders.
 
 Participants underwent full-night PSG following American Academy of Sleep Medicine (AASM) scoring criteria, allowing for detailed assessments of sleep architecture, oxygen saturation, and respiratory events. The study also collected comprehensive data on lifestyle factors, weight changes, menopausal transition, and alcohol use to explore risk factors for sleep disorders. Key findings from the WSC have been published in approximately 100 papers, highlighting the broad prevalence of sleep apnea and its long-term health impacts. The study has provided critical insights into how sleep disorders contribute to morbidity and mortality across the lifespan.
 
@@ -12,7 +12,7 @@ The study recruited participants through a two-stage sampling scheme. In the fir
 
 ### Clinical Visit
 
-Clinical visits for the Wisconsin Sleep Cohort (WSC) involve thorough preparation and detailed assessments. Before the visit, participants may be asked to maintain a sleep diary and follow specific instructions, such as avoiding alcohol, caffeine, or certain medications on the day of the study. The overnight sleep studies are conducted at the University of Wisconsin–Madison ICTR's CTRC, where participants arrive in the evening and stay overnight in a private room designed for comfort. During the study, polysomnography is performed, involving electrodes to measure brain activity, eye movements, muscle activity, heart rate, and oxygen levels, as well as monitoring of breathing effort and airflow. Additional assessments may include questionnaires on health and sleep habits, as well as medical tests such as blood draws, weight and height measurements, and blood pressure checks. After the visit, the collected data are analyzed to evaluate sleep disorders, particularly sleep apnea, and significant findings may be shared with participants if follow-up is needed.
+Clinical visits for the Wisconsin Sleep Cohort (WSC) involve thorough preparation and detailed assessments. Before the visit, participants may be asked to maintain a sleep diary and follow specific instructions, such as avoiding alcohol, caffeine, or certain medications on the day of the study. The overnight sleep studies are conducted at the University of Wisconsin–Madison Institute for Clinical and Translational Research's (ICTR) Clinical and Translational Research Center (CTRC), where participants arrive in the evening and stay overnight in a private room designed for comfort. During the study, polysomnography is performed, involving electrodes to measure brain activity, eye movements, muscle activity, heart rate, and oxygen levels, as well as monitoring of breathing effort and airflow. Additional assessments may include questionnaires on health and sleep habits, as well as medical tests such as blood draws, weight and height measurements, and blood pressure checks. After the visit, the collected data are analyzed to evaluate sleep disorders, particularly sleep apnea, and significant findings may be shared with participants if follow-up is needed.
 
 ### PSG Collection
 
@@ -38,6 +38,8 @@ Sleep staging follows detailed guidelines: Stage 1 is scored when alpha activity
 
 ### Multiple Sleep Latency Test (MSLT)
 
+Multiple Sleep Latency Tests (MSLT) were conducted from 1989 to 2011. Research MSLTs were administered from 1989- 2003. Clinical MSLTs were administered from 2001-2011. Sleep protocols and number of Naps differs by type of MSLT. Invitation criteria and scoring rules evolved over time.
+
 ## Data de-identification
 
 All personally identifiable information (PII) has been removed from the data files by the NSRR team.
@@ -46,13 +48,11 @@ All personally identifiable information (PII) has been removed from the data fil
 
 ### Covariate/phenotype datasets (CSV)
 
-The covariate dataset for the Wisconsin Sleep Cohort (WSC) study (**wsc-dataset-0.8.0.csv)** contains a collection of detailed participant data, with one file for each data release. The dataset consists of multiple columns, each representing a specific variable, with a unique participant identifier [wsc_id](https://sleepdata.org/datasets/wsc/variables/wsc_id%60%5D(https://sleepdata.org/datasets/wsc/variables/wsc_id). Each column is described in the accompanying **variables** data dictionary, which provides column names, labels (display names), detailed descriptions, and metadata. Categorical variables also include an associated "domain" (e.g., 0=Male, 1=Female), which are described in the **domains** data dictionary file. Additional documentation links each variable to the original survey forms used in the study.
-
-For further reference, the dataset and data dictionary files are tracked on GitHub, ensuring transparency and accessibility for research purposes (<https://github.com/nsrr/wsc-data-dictionary>).
+The covariate dataset for the Wisconsin Sleep Cohort (WSC) study (**wsc-dataset-0.8.0.csv)** contains a collection of detailed participant data, with one file for each data release. The dataset consists of multiple columns, each representing a specific variable, with a unique participant identifier [wsc_id]([https://sleepdata.org/datasets/wsc/variables/wsc_id](https://sleepdata.org/datasets/wsc/variables/wsc_id%60%5D(https://sleepdata.org/datasets/wsc/variables/wsc_id){.uri}). Each column is described in the accompanying **variables** data dictionary, which provides column names, labels (display names), detailed descriptions, and metadata. Categorical variables also include an associated "domain" (e.g., 0=Male, 1=Female), which are described in the **domains** data dictionary file. Additional documentation links each variable to the original survey forms used in the study.
 
 The mailed survey dataset (**wsc-mailed-survey-dataset-0.8.0.csv)** contains participant responses from three pre-visit 1 mailed questionnaires. Data are stored in wide format, with one row per participant (keyed by `wsc_id`) and separate columns representing items from each survey wave.
 
-The harmonized-dataset (**wsc-dataset-harmonized-0.8.0.csv)** contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team. Key variables include:
+The harmonized dataset (**wsc-dataset-harmonized-0.8.0.csv)** contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team. Key variables include:
 
 |  |  |
 |------------------------------------|------------------------------------|
@@ -64,9 +64,11 @@ The harmonized-dataset (**wsc-dataset-harmonized-0.8.0.csv)** contains many of t
 | [nsrr_bp_diastolic](https://sleepdata.org/datasets/wsc/variables/nsrr_bp_diastolic) | Diastolic blood pressure |
 | [nsrr_bp_systolic](https://sleepdata.org/datasets/wsc/variables/nsrr_bp_systolic) | Systolic blood pressure |
 
+For further reference, the dataset and data dictionary files are tracked on GitHub, ensuring transparency and accessibility for research purposes (<https://github.com/nsrr/wsc-data-dictionary>).
+
 ### Multiple Sleep Latency Test (CSV)
 
-**wsc-slt-dataset-0.8.0.csv**
+The Multiple Sleep Latency Test (MSLT) dataset (**wsc-slt-dataset-0.8.0.csv)** contains data from the in lab MSLT questionnaire, 6-day pre-study sleep log, Stanford Sleepiness Scale ratings for each trial, and MSLT technician scored data.
 
 ### **PSG signal files (EDF)**
 
