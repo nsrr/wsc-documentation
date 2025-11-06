@@ -48,14 +48,14 @@ All personally identifiable information (PII) has been removed from the data fil
 
 ### Covariate/phenotype datasets (CSV)
 
-The covariate dataset for the Wisconsin Sleep Cohort (WSC) study (**wsc-dataset-0.8.0.csv)** contains a collection of detailed participant data, with one file for each data release. The dataset consists of multiple columns, each representing a specific variable, with a unique participant identifier [wsc_id]([https://sleepdata.org/datasets/wsc/variables/wsc_id](https://sleepdata.org/datasets/wsc/variables/wsc_id%60%5D(https://sleepdata.org/datasets/wsc/variables/wsc_id){.uri}). Each column is described in the accompanying **variables** data dictionary, which provides column names, labels (display names), detailed descriptions, and metadata. Categorical variables also include an associated "domain" (e.g., 0=Male, 1=Female), which are described in the **domains** data dictionary file. Additional documentation links each variable to the original survey forms used in the study.
+The covariate dataset for the Wisconsin Sleep Cohort (WSC) study (**wsc-dataset-0.8.0.csv)** contains a collection of detailed participant data, with one file for each data release. The dataset consists of multiple columns, each representing a specific variable, with a unique participant identifier [wsc_id]([https://sleepdata.org/datasets/wsc/variables/wsc_id](https://sleepdata.org/datasets/wsc/variables/wsc_id%60%5D(https://sleepdata.org/datasets/wsc/variables/wsc_id)%7B.uri%7D). Each column is described in the accompanying **variables** data dictionary, which provides column names, labels (display names), detailed descriptions, and metadata. Categorical variables also include an associated "domain" (e.g., 0=Male, 1=Female), which are described in the **domains** data dictionary file. Additional documentation links each variable to the original survey forms used in the study.
 
 The mailed survey dataset (**wsc-mailed-survey-dataset-0.8.0.csv)** contains participant responses from three pre-visit 1 mailed questionnaires. Data are stored in wide format, with one row per participant (keyed by `wsc_id`) and separate columns representing items from each survey wave.
 
 The harmonized dataset (**wsc-dataset-harmonized-0.8.0.csv)** contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team. Key variables include:
 
 |  |  |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Variable** | **Label** |
 | [nsrr_age](https://sleepdata.org/datasets/wsc/variables/nsrr_age) | Subject Age |
 | [nsrr_sex](https://sleepdata.org/datasets/wsc/variables/nsrr_sex) | Subject sex |
@@ -86,9 +86,9 @@ The WSC team provided sleep staging and respiratory event scoring annotations. T
 
 ## Access and usage restrictions
 
-Wisconsin Sleep Cohort data available on NSRR represent a limited portion of all potentially available Wisconsin Sleep Cohort data. Some Wisconsin Sleep Cohort data are presently withheld from NSRR due to one or more of the following: 1) constraints on sharing due to some participants refusing data sharing options at the point of obtaining informed consent; 2) data are being used to address currently-funded projects; 3) data have not yet been prepared for sharing; 4) data are not available in an electronically-sharable format (e.g., "old-school" paper-based polysomnographic recordings); 5) miscellaneous other reasons. Please contact Amanda Rasmuson ([arasmuson\@wisc.edu](mailto:arasmuson@wisc.edu){.email}) if there are questions.
+Wisconsin Sleep Cohort data available on NSRR represent a limited portion of all potentially available Wisconsin Sleep Cohort data. Some Wisconsin Sleep Cohort data are presently withheld from NSRR due to one or more of the following: 1) constraints on sharing due to some participants refusing data sharing options at the point of obtaining informed consent; 2) data are being used to address currently-funded projects; 3) data have not yet been prepared for sharing; 4) data are not available in an electronically-sharable format (e.g., "old-school" paper-based polysomnographic recordings); 5) miscellaneous other reasons.
 
-Wisconsin Sleep Cohort data available on NSRR may be used for non-commercial use by those affiliated with an academic research institution only. Requests for data use will be approved exclusively for sleep related research. Additional variables and data may be requested and obtained directly from the Wisconsin Sleep Cohort Study (please contact Amanda Rasmuson: [arasmuson\@wisc.edu](mailto:arasmuson@wisc.edu){.email}).
+Wisconsin Sleep Cohort data available on NSRR may be used for non-commercial use by those affiliated with an academic research institution only. Requests for data use will be approved exclusively for sleep related research. Additional variables and data may be requested and obtained directly from the Wisconsin Sleep Cohort Study (please contact Amanda Rasmuson: [arasmuson\@wisc.edu](%5Barasmuson@wisc.edu%5D(mailto:arasmuson@wisc.edu)%7B.email%7D)).
 
 Please keep these guidelines in mind when starting your WSC data request. Please allow up to three (3) weeks for the NSRR-WSC review committee to respond to your data request.
 
