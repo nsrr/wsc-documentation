@@ -6,17 +6,17 @@ Participants underwent full-night PSG following American Academy of Sleep Medici
 
 ## Methods
 
-### **Recruitment and Eligibility:**
+### Recruitment and Eligibility
 
 The study recruited participants through a two-stage sampling scheme. In the first stage, state employees aged 30 to 60 from four large Wisconsin state agencies were surveyed via a mailed questionnaire (**Mailed Survey 1**) about their sleep patterns. In the second stage, survey participants were classified as high or low risk for sleep apnea based on their responses to six survey questions. High-risk individuals were sampled at 100%, while low-risk individuals were sampled at a 1:1.5 (High/Low Risk) ratio within sex-stratified 2-year age groups. Exclusion criteria included being currently pregnant, recent upper airway surgery, tracheostomy, recent cancer surgery, or unstable cardiopulmonary disease.
 
 ### Clinical Visit
 
-Clinical visits for the Wisconsin Sleep Cohort (WSC) involve thorough preparation and detailed assessments. Before the visit, participants may be asked to maintain a sleep diary and follow specific instructions, such as avoiding alcohol, caffeine, or certain medications on the day of the study. The overnight sleep studies are conducted at the University of Wisconsin–Madison Institute for Clinical and Translational Research's (ICTR) Clinical and Translational Research Center (CTRC), where participants arrive in the evening and stay overnight in a private room designed for comfort. During the study, polysomnography is performed, involving electrodes to measure brain activity, eye movements, muscle activity, heart rate, and oxygen levels, as well as monitoring of breathing effort and airflow. Additional assessments may include questionnaires on health and sleep habits, as well as medical tests such as blood draws, weight and height measurements, and blood pressure checks. After the visit, the collected data are analyzed to evaluate sleep disorders, particularly sleep apnea, and significant findings may be shared with participants if follow-up is needed.
+Clinical visits for the WSC involve thorough preparation and detailed assessments. Before the visit, participants may be asked to maintain a sleep diary and follow specific instructions, such as avoiding alcohol, caffeine, or certain medications on the day of the study. The overnight sleep studies are conducted at the University of Wisconsin–Madison Institute for Clinical and Translational Research's (ICTR) Clinical and Translational Research Core (CTRC), where participants arrive in the evening and stay overnight in a private room designed for comfort. During the study, polysomnography is performed, involving electrodes to measure brain activity, eye movements, muscle activity, heart rate, and oxygen levels, as well as monitoring of breathing effort and airflow. Additional assessments may include questionnaires on health and sleep habits, as well as medical tests such as blood draws, weight and height measurements, and blood pressure checks. After the visit, the collected data are analyzed to evaluate sleep disorders, particularly sleep apnea, and significant findings may be shared with participants if follow-up is needed.
 
 ### PSG Collection
 
-The Wisconsin Sleep Cohort (WSC) study employs full-night polysomnography (PSG) to assess sleep patterns and disorders among participants. Conducted at the University of Wisconsin-Madison's Clinical and Translational Research Core (CTRC), these in-laboratory studies utilize high-quality equipment to capture a comprehensive set of physiological measures essential for diagnosing and analyzing sleep disorders. The PSG system records data from various physiological signals, including:
+The WSC study employs full-night polysomnography (PSG) to assess sleep patterns and disorders among participants. Conducted at the University of Wisconsin-Madison's Clinical and Translational Research Core (CTRC), these in-laboratory studies utilize high-quality equipment to capture a comprehensive set of physiological measures essential for diagnosing and analyzing sleep disorders. The PSG system records data from various physiological signals, including:
 
 -   **EEG (Electroencephalogram):** Electrodes placed on the scalp measure brain activity to assess sleep stages.
 -   **EOG (Electrooculogram):** Measures eye movements, which are used to differentiate between sleep stages such as REM and non-REM sleep.
@@ -48,14 +48,14 @@ All personally identifiable information (PII) has been removed from the data fil
 
 ### Covariate/phenotype datasets (CSV)
 
-The covariate dataset for the Wisconsin Sleep Cohort (WSC) study (**wsc-dataset-0.8.0.csv)** contains a collection of detailed participant data, with one file for each data release. The dataset consists of multiple columns, each representing a specific variable, with a unique participant identifier [wsc_id]([https://sleepdata.org/datasets/wsc/variables/wsc_id](https://sleepdata.org/datasets/wsc/variables/wsc_id%60%5D(https://sleepdata.org/datasets/wsc/variables/wsc_id)%7B.uri%7D). Each column is described in the accompanying **variables** data dictionary, which provides column names, labels (display names), detailed descriptions, and metadata. Categorical variables also include an associated "domain" (e.g., 0=Male, 1=Female), which are described in the **domains** data dictionary file. Additional documentation links each variable to the original survey forms used in the study.
+The covariate dataset for the WSC study (**wsc-dataset-0.8.0.csv)** contains a collection of detailed participant data, with one file for each data release. The dataset consists of multiple columns, each representing a specific variable, with a unique participant identifier [wsc_id](https://sleepdata.org/datasets/wsc/variables/wsc_id). Each column is described in the accompanying **variables** data dictionary, which provides column names, labels (display names), detailed descriptions, and metadata. Categorical variables also include an associated "domain" (e.g., 0=Male, 1=Female), which are described in the **domains** data dictionary file. Additional documentation links each variable to the original survey forms used in the study.
 
 The mailed survey dataset (**wsc-mailed-survey-dataset-0.8.0.csv)** contains participant responses from three pre-visit 1 mailed questionnaires. Data are stored in wide format, with one row per participant (keyed by `wsc_id`) and separate columns representing items from each survey wave.
 
 The harmonized dataset (**wsc-dataset-harmonized-0.8.0.csv)** contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team. Key variables include:
 
 |  |  |
-|----|----|
+|------------------------------------|------------------------------------|
 | **Variable** | **Label** |
 | [nsrr_age](https://sleepdata.org/datasets/wsc/variables/nsrr_age) | Subject Age |
 | [nsrr_sex](https://sleepdata.org/datasets/wsc/variables/nsrr_sex) | Subject sex |
@@ -70,7 +70,7 @@ For further reference, the dataset and data dictionary files are tracked on GitH
 
 The Multiple Sleep Latency Test (MSLT) dataset (**wsc-slt-dataset-0.8.0.csv)** contains data from the in lab MSLT questionnaire, 6-day pre-study sleep log, Stanford Sleepiness Scale ratings for each trial, and MSLT technician scored data.
 
-### **PSG signal files (EDF)**
+### PSG signal files (EDF)
 
 [Raw signal data](https://sleepdata.org/datasets/wsc/files/polysomnography) are available as European Data Format (EDF) files. These EDFs were exported from the original data collection system and processed in [Luna](http://zzz.bwh.harvard.edu/luna/).
 
@@ -88,7 +88,7 @@ The WSC team provided sleep staging and respiratory event scoring annotations. T
 
 Wisconsin Sleep Cohort data available on NSRR represent a limited portion of all potentially available Wisconsin Sleep Cohort data. Some Wisconsin Sleep Cohort data are presently withheld from NSRR due to one or more of the following: 1) constraints on sharing due to some participants refusing data sharing options at the point of obtaining informed consent; 2) data are being used to address currently-funded projects; 3) data have not yet been prepared for sharing; 4) data are not available in an electronically-sharable format (e.g., "old-school" paper-based polysomnographic recordings); 5) miscellaneous other reasons.
 
-Wisconsin Sleep Cohort data available on NSRR may be used for non-commercial use by those affiliated with an academic research institution only. Requests for data use will be approved exclusively for sleep related research. Additional variables and data may be requested and obtained directly from the Wisconsin Sleep Cohort Study (please contact Amanda Rasmuson: [arasmuson\@wisc.edu](%5Barasmuson@wisc.edu%5D(mailto:arasmuson@wisc.edu)%7B.email%7D)).
+Wisconsin Sleep Cohort data available on NSRR may be used for non-commercial use by those affiliated with an academic research institution only. Requests for data use will be approved exclusively for sleep related research. Additional variables and data may be requested and obtained directly from the Wisconsin Sleep Cohort Study (please contact Amanda Rasmuson: [arasmuson\@wisc.edu](mailto:arasmuson@wisc.edu){.email}).
 
 Please keep these guidelines in mind when starting your WSC data request. Please allow up to three (3) weeks for the NSRR-WSC review committee to respond to your data request.
 
