@@ -44,7 +44,7 @@ Multiple Sleep Latency Tests (MSLT) were conducted from 1989 to 2011. Research M
 
 All personally identifiable information (PII) has been removed from the data files by the NSRR team.
 
-## Data Overview
+## Data overview
 
 ### Covariate/phenotype datasets (CSV)
 
@@ -88,7 +88,7 @@ The WSC team provided sleep staging and respiratory event scoring annotations. T
 
 Wisconsin Sleep Cohort data available on NSRR represent a limited portion of all potentially available Wisconsin Sleep Cohort data. Some Wisconsin Sleep Cohort data are presently withheld from NSRR due to one or more of the following: 1) constraints on sharing due to some participants refusing data sharing options at the point of obtaining informed consent; 2) data are being used to address currently-funded projects; 3) data have not yet been prepared for sharing; 4) data are not available in an electronically-sharable format (e.g., "old-school" paper-based polysomnographic recordings); 5) miscellaneous other reasons.
 
-Wisconsin Sleep Cohort data available on NSRR may be used for non-commercial use by those affiliated with an academic research institution only. Requests for data use will be approved exclusively for sleep related research. Additional variables and data may be requested and obtained directly from the Wisconsin Sleep Cohort Study (please contact Amanda Rasmuson: [arasmuson\@wisc.edu](mailto:arasmuson@wisc.edu){.email}).
+Wisconsin Sleep Cohort data available on NSRR may be used for non-commercial use by those affiliated with an academic research institution only. Requests for data use will be approved exclusively for sleep related research. Additional variables and data may be requested and obtained directly from the Wisconsin Sleep Cohort Study (please contact Amanda Rasmuson: <arasmuson\@wisc.edu>.
 
 Please keep these guidelines in mind when starting your WSC data request. Please allow up to three (3) weeks for the NSRR-WSC review committee to respond to your data request.
 
@@ -104,113 +104,57 @@ Please include the following text in the Acknowledgements:
 
 > This Wisconsin Sleep Cohort Study was supported by the U.S. National Institutes of Health, National Heart, Lung, and Blood Institute (R01HL62252), National Institute on Aging (R01AG036838, R01AG058680), and the National Center for Research Resources (1UL1RR025011). The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
 
-## Protocols and manuals
-
--   [WSCS Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/m/browser/documentation/WSCS_Manual_of_Operations.pdf)
--   [WSCS Multiple Sleep Latency Test Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/m/browser/documentation/WSCS_Multiple_Sleep_Latency_Test_Manual_of_Operations.pdf?inline=1)
--   [WSCS Mailed Surveys Documentation (PDF)](https://sleepdata.org/datasets/wsc/files/documentation/)
-
 ## Changelog
 
-**0.8.0 (September 30, 2025)**
+### November 2025 
+- Version 0.8.0 of dataset released, adding Mailed Survey dataset, adding 49 new variables (from WSC team).
 
--   Add 49 new variables (from WSC team) and data dictionary entries
+### July 2024
+- Version 0.7.0 of dataset released, removing death adjudication data (WSC contributor request due to new data sharing provisions), adding [ahi3](:variables_path:/ahi3), and adding [many new drug/medication variables](https://sleepdata.org/datasets/wsc/variables?folder=Medical+History%2FMedications)
 
--   Add new Mailed Survey dataset and data dictionary entries
+### January 2024
 
--   Update variable folder paths to match current folder structure
+- Add [annotation logs (.txt, .xls) for Multiple Sleep Latency Tests](:files_path:/mslt)
 
--   Add 4 new harmonized PSG variables (`nsrr_avgdurah_hp4u`; `nsrr_pctdursp_salt90`; `nsrr_avglvlsa`; `nsrr_minlvlsa`)
+### January 2023
 
--   Create new `nsrr_file_prefix` variable
+- Incorporate raw and summary data from Multiple Sleep Latency Tests
 
--   The CSV datasets generated from a new R script is located here:
+### October 2021
 
-    -   `\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20200115-peppard-wsc\nsrr-prep\_releases\0.8.0.pre`
+- Update data access restrictions to specify use is limited to users affiliated with an academic research institution
 
-**0.7.0 (July 17, 2024)**
+### May 2021
 
--   Remove death data (WSC contributor request)
+- Add more information about PSG equipment to polysomnography introduction
 
--   Add `ahi3` variable
+### April 2021
 
--   Add harmonized sleep architecture variables
+- Version 0.2.0 dataset released, including incident outcomes tracking
 
--   Add additional drug/medication variables
+### November 2020
 
--   The CSV datasets generated from a SAS export is located here:
+- Move PSG EDF files from /polysomnography/edfs to /polysomnography
+- Add .eannot and original staging/scoring annotation files in /polysomnography'
+- Update the polysomnography introduction page with notes about annotation files
 
-    -   `\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20200115-peppard-wsc\nsrr-prep\_releases\0.7.0`
+### August 2020
 
-**0.6.0 (December 12, 2022)**
+- Make WSC dataset version 0.1.0 public and available for data request
+- Add note about who can access dataset to README
 
--   Add Multiple Sleep Latency Test dataset and data dictionary entries
+### June 2020
 
--   Fix nsrr_bp variable links
+- Add polysomnography and dataset introduction pages
 
--   The CSV datasets generated from a SAS export is located here:
+### January 2020
 
-    -   `\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20200115-peppard-wsc\nsrr-prep\_releases\0.6.0`
-
-**0.5.0 (July 19, 2022)**
-
--   Update mean seated systolic (`sbp_mean`) and diastolic (`dbp_mean`) blood pressure variables (WSC team change)
-
--   Remove individual readings for seated systolic and distolic blood pressure (WSC team change)
-
--   Add harmonized seated blood pressure (`nsrr_bp_diastolic`, `nsrr_bp_systolic`)
-
--   Add updated death data from WSC team
-
--   Remove incident CVD/stroke variables (WSC team request; contact them for additional variables)
-
--   The CSV datasets generated from a SAS export is located here:
-
-    -   `\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20200115-peppard-wsc\nsrr-prep\_releases\0.5.0`
-
-**0.4.0 (February 24, 2022)**
-
--   Add harmonized core polysomnography variables (`nsrr_*`)
-
--   The CSV datasets generated from a SAS export is located here:
-
-    -   `\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20200115-peppard-wsc\nsrr-prep\_releases\0.4.0`
-
-**0.3.0 (December 6, 2021)**
-
--   Include additional context for blood draw variables (drawn morning after PSG)
-
--   Add initial set of harmonized variables (`nsrr_*`)
-
--   The CSV datasets generated from a SAS export is located here:
-
-    -   `\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20200115-peppard-wsc\nsrr-prep\_releases\0.3.0`
-
-**0.2.0 (April 28, 2021)**
-
--   Add variables for % sleep time in N1 and N2
-
--   Add `wsc-incident` dataset with incident CVD/stroke outcomes
-
--   Modify metadata for many medical history variables (e.g. `stroke_ynd`)
-
--   The CSV datasets generated from a SAS export is located here:
-
-    -   `\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20200115-peppard-wsc\nsrr-prep\_releases\0.2.0`
-
-**0.1.0 (August 31, 2020)**
-
--   Added initial variable set from WSC source data
-
--   Modified variable metadata to conform to NSRR standards and harmonized terms
-
--   Created the wsc-data-dictionary repository using Spout v1.0.0
-
--   The CSV datasets generated from a SAS export is located here:
-
-    -   `\\rfawin\BWH-SLEEPEPI-NSRR-STAGING\20200115-peppard-wsc\nsrr-prep\_releases\0.1.0`
+- Start compiling Wisconsin Sleep Cohort documentation for NSRR
 
 ## References
 
+-   [WSCS Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/m/browser/documentation/WSCS_Manual_of_Operations.pdf)
+-   [WSCS Multiple Sleep Latency Test Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/m/browser/documentation/WSCS_Multiple_Sleep_Latency_Test_Manual_of_Operations.pdf)
+-   [WSCS Mailed Surveys Documentation (PDF)](https://sleepdata.org/datasets/wsc/files/documentation/WSCS_Mailed_Surveys_Documentation.pdf)
 -   WSC NSRR GitHub Data Dictionary: <https://github.com/nsrr/wsc-data-dictionary>
 -   WSC NSRR GitHub Documentation: <https://github.com/nsrr/wsc-documentation/tree/master/pages>
