@@ -88,7 +88,11 @@ The WSC team provided sleep staging and respiratory event scoring annotations. T
 
 Wisconsin Sleep Cohort data available on NSRR represent a limited portion of all potentially available Wisconsin Sleep Cohort data. Some Wisconsin Sleep Cohort data are presently withheld from NSRR due to one or more of the following: 1) constraints on sharing due to some participants refusing data sharing options at the point of obtaining informed consent; 2) data are being used to address currently-funded projects; 3) data have not yet been prepared for sharing; 4) data are not available in an electronically-sharable format (e.g., "old-school" paper-based polysomnographic recordings); 5) miscellaneous other reasons.
 
+<<<<<<< HEAD
 Wisconsin Sleep Cohort data available on NSRR may be used for non-commercial use by those affiliated with an academic research institution only. Requests for data use will be approved exclusively for sleep related research. Additional variables and data may be requested and obtained directly from the Wisconsin Sleep Cohort Study (please contact Amanda Rasmuson: arasmuson@wisc.edu).
+=======
+Wisconsin Sleep Cohort data available on NSRR may be used for non-commercial use by those affiliated with an academic research institution only. Requests for data use will be approved exclusively for sleep related research. Additional variables and data may be requested and obtained directly from the Wisconsin Sleep Cohort Study (please contact Amanda Rasmuson: arasmuson\@wisc.edu).
+>>>>>>> 97e94a3 (correct email)
 
 Please keep these guidelines in mind when starting your WSC data request. Please allow up to three (3) weeks for the NSRR-WSC review committee to respond to your data request.
 
