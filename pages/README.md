@@ -106,7 +106,7 @@ Please include the following text in the Acknowledgements:
 
 ## Changelog
 
-### November 2025 
+### December 2025 
 - Version 0.8.0 of dataset released, adding Mailed Survey dataset, adding 49 new variables (from WSC team).
 
 ### July 2024
@@ -156,5 +156,5 @@ Please include the following text in the Acknowledgements:
 -   [WSCS Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/m/browser/documentation/WSCS_Manual_of_Operations.pdf)
 -   [WSCS Multiple Sleep Latency Test Manual of Operations (PDF)](https://sleepdata.org/datasets/wsc/files/m/browser/documentation/WSCS_Multiple_Sleep_Latency_Test_Manual_of_Operations.pdf)
 -   [WSCS Mailed Surveys Documentation (PDF)](https://sleepdata.org/datasets/wsc/files/documentation/WSCS_Mailed_Surveys_Documentation.pdf)
--   WSC NSRR GitHub Data Dictionary: <https://github.com/nsrr/wsc-data-dictionary>
--   WSC NSRR GitHub Documentation: <https://github.com/nsrr/wsc-documentation/tree/master/pages>
+-   WSC NSRR GitHub Data Dictionary: https://github.com/nsrr/wsc-data-dictionary
+-   WSC NSRR GitHub Documentation: https://github.com/nsrr/wsc-documentation/tree/master/pages
