@@ -92,7 +92,7 @@ Wisconsin Sleep Cohort data available on NSRR may be used for non-commercial use
 
 Please keep these guidelines in mind when starting your WSC data request. Please allow up to three (3) weeks for the NSRR-WSC review committee to respond to your data request.
 
-## Citations and acknowledgments
+## Citation and acknowledgments
 
 When using this dataset, please cite the following:
 
