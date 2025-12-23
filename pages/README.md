@@ -96,9 +96,9 @@ Please keep these guidelines in mind when starting your WSC data request. Please
 
 When using this dataset, please cite the following:
 
-[Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
-
-[Young T, Palta M, Dempsey J, Peppard PE, Nieto FJ, Hla KM. Burden of sleep apnea: rationale, design, and major findings of the Wisconsin Sleep Cohort study. WMJ. 2009 Aug;108(5):246-9. PMID: 19743755; PMCID: PMC2858234.](https://pmc.ncbi.nlm.nih.gov/articles/PMC2858234/)
+> [Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
+> 
+> [Young T, Palta M, Dempsey J, Peppard PE, Nieto FJ, Hla KM. Burden of sleep apnea: rationale, design, and major findings of the Wisconsin Sleep Cohort study. WMJ. 2009 Aug;108(5):246-9. PMID: 19743755; PMCID: PMC2858234.](https://pmc.ncbi.nlm.nih.gov/articles/PMC2858234/)
 
 Please include the following text in the Acknowledgements:
 
