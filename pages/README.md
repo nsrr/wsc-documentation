@@ -70,9 +70,9 @@ For further reference, the dataset and data dictionary files are tracked on GitH
 
 The Multiple Sleep Latency Test (MSLT) dataset (**wsc-slt-dataset-0.8.0.csv)** contains data from the in lab MSLT questionnaire, 6-day pre-study sleep log, Stanford Sleepiness Scale ratings for each trial, and MSLT technician scored data.
 
-### PSG signal files (EDF)
+### PSG signal and annotation files (EDF)
 
-[Raw signal data](https://sleepdata.org/datasets/wsc/files/polysomnography) are available as European Data Format (EDF) files. These EDFs were exported from the original data collection system and processed in [Luna](http://zzz.bwh.harvard.edu/luna/).
+[Raw signal data](https://sleepdata.org/datasets/wsc/files/polysomnography) are available as European Data Format (EDF) files. These EDFs were exported from the original data collection system and anonymized in [Luna](http://zzz.bwh.harvard.edu/luna/).
 
 The WSC team provided sleep staging and respiratory event scoring annotations. These annotations are [available alongside the .EDF signal files](https://sleepdata.org/datasets/wsc/files/polysomnography) in the following formats:
 
@@ -83,6 +83,8 @@ The WSC team provided sleep staging and respiratory event scoring annotations. T
 -   **.log.txt** - WSC original biocalibrations and light indicators for Gamma studies.
 
 -   **.allscore.txt** - WSC original staging and respiratory event scoring for Twin studies.
+
+The NSRR team [harmonized the WSC PSG data](https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/wsc?ref_type=heads) to make signal naming and event labeling consistent. The [harmonized .EDF and .annot files are available here](:files_path:/harmonized).
 
 ## Access and usage restrictions
 
@@ -105,6 +107,10 @@ Please include the following text in the Acknowledgements:
 > This Wisconsin Sleep Cohort Study was supported by the U.S. National Institutes of Health, National Heart, Lung, and Blood Institute (R01HL62252), National Institute on Aging (R01AG036838, R01AG058680), and the National Center for Research Resources (1UL1RR025011). The National Sleep Research Resource was supported by the U.S. National Institutes of Health, National Heart Lung and Blood Institute (R24 HL114473, 75N92019R002).
 
 ## Changelog
+
+### June 2026
+
+- Add [NSRR-harmonized PSG signal and annotation data](:files_path:/harmonized)
 
 ### December 2025 
 - Version 0.8.0 of dataset released, adding Mailed Survey dataset, adding 49 new variables (from WSC team).
